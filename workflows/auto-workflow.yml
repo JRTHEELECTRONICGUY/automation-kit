@@ -1,0 +1,7 @@
+# JR The Electronic Guy - Automation Kit
+# Comment AUTO get complete workflow
+
+## Quick Setup (5 minutes)
+1. curl -s https://raw.githubusercontent.com/JRTHEELECTRONICGUY/kit/main/install.sh | bash
+2. openclaw run jr-electronic-setup
+3. Follow prompts for niche selection

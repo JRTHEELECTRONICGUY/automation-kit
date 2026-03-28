@@ -1,0 +1,18 @@
+# JR Niche Hunter Configuration
+electronics_niches:
+  - arduino_hvac_automation: {"potential": "$1,500-3,000/month", "competition": "low"}
+  - iot_sensor_monitoring: {"potential": "$2,000-4,500/month", "competition": "medium"} 
+  - smart_home_installation: {"potential": "$3,000-7,000/month", "competition": "high"}
+  - industrial_automation: {"potential": "$5,000-12,000/month", "competition": "low"}
+
+outreach_templates:
+  initial_contact: |
+    "Hey [Name],
+    Just implemented automated [specific solution] for facility managers.
+    Cut their energy costs 23%. Could save you similar amounts.
+    Open to 10-minute convo about your HVAC workflow?"
+
+  follow_up: |
+    "Following up on automation potential.
+    Electronic solution details: [calendar link]
+    JR"
