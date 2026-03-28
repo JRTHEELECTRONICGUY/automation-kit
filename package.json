@@ -1,0 +1,66 @@
+{
+  "name": "jr-electronic-automation-kit",
+  "version": "1.0.0",
+  "description": "Complete automation system that generates JL's $6k+ monthly passive income - ready to deploy kit",
+  "main": "jr-cli.js",
+  "scripts": {
+    "start": "node jr-cli.js",
+    "dev": "nodemon jr-cli.js",
+    "test": "jest",
+    "setup": "node setup.js",
+    "cli": "node jr-cli.js"
+  },
+  "keywords": [
+    "automation",
+    "passive-income",
+    "business-automation",
+    "jr-electronic",
+    "john-readman",
+    "barrie",
+    "canada",
+    "crypto-coin-bot",
+    "niche-hunter",
+    "outreach-engine",
+    "content-generator",
+    "dashboard"
+  ],
+  "author": "John Readman <support@jr-systems.com> (Barrie, Ontario, Canada)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnreadman/jr-electronic-automation-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnreadman/jr-electronic-automation-kit/issues"
+  },
+  "homepage": "https://jr-systems.com",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.7",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.29.4",
+    "nodemailer": "^6.9.4",
+    "ora": "^7.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.7.2",
+    "speed-test": "^1.14.0",
+    "timeago.js": "^4.0.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
