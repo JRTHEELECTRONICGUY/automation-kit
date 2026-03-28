@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "owner": "John Readman",
+  "location": "Barrie, Ontario, Canada",
+  "contact": "support@jr-systems.com",
+  
+  "api_keys": {
+    "openai": "your-openai-api-key-here",
+    "discord": "optional-discord-bot-token",
+    "google_search": "optional-google-custom-search-api",
+    "email_provider": "your-email-service-api-key"
+  },
+  
+  "automation_tiers": {
+    "beginner": {
+      "daily_target": 50,
+      "annual_goal": 18000,
+      "strategies": ["affiliate_marketing", "content_creation", "social_automation"]
+    },
+    "intermediate": {
+      "daily_target": 200,
+      "annual_goal": 73000,
+      "strategies": ["lead_generation", "service_offers", "automation_consulting"]
+    },
+    "advanced": {
+      "daily_target": 1000,
+      "annual_goal": 365000,
+      "strategies": ["premium_services", "high_ticket", "agency_model"]
+    },
+    "agency": {
+      "client_target": 5,
+      "monthly_recurring": 5000,
+      "annual_goal": 250000
+    }
+  },
+  
+  "supported_niches": [
+    "passive income",
+    "cryptocurrency", 
+    "digital marketing",
+    "automation",
+    "personal finance",
+    "online business",
+    "social media marketing",
+    "email marketing",
+    "saas reviews"
+  ],
+  
+  "automation_modules": {
+    "niche_hunter": {
+      "enabled": true,
+      "schedule": "daily",
+      "keywords_per_day": 5
+    },
+    "outreach_engine": {
+      "enabled": true,
+      "schedule": "every_hour",
+      "max_emails_per_day": 50
+    },
+    "content_generator": {
+      "enabled": true,
+      "schedule": "3_times_daily",
+      "posts_per_day": 9
+    },
+    "dashboard": {
+      "enabled": true,
+      "schedule": "real_time",
+      "update_frequency": "every_15min"
+    }
+  },
+  
+  "platform_settings": {
+    "twitter": {
+      "posting_schedule": ["9:00", "12:00", "3:00", "6:00"],
+      "hashtags_per_post": 3,
+      "max_daily_posts": 4
+    },
+    "linkedin": {
+      "posting_schedule": ["8:30", "12:30", "4:30"],
+      "max_daily_posts": 3
+    },
+    "medium": {
+      "posting_schedule": ["daily"],
+      "max_daily_posts": 2
+    }
+  },
+  
+  "income_tracking": {
+    "daily_targets": {
+      "beginner": [25, 50, 75, 100],
+      "intermediate": [100, 200, 350, 500],
+      "advanced": [500, 750, 1000, 1500]
+    },
+    "metric_sources": [
+      "affiliate_commissions",
+      "consulting_leads", 
+      "course_sales",
+      "service_income",
+      "saas_referrals"
+    ]
+  },
+  
+  "contact_info": {
+    "discord": "discord.gg/jr-systems",
+    "email": "support@jr-systems.com", 
+    "website": "https://jr-systems.com",
+    "youtube": "youtube.com/@johnreadman"
+  }
+}
